@@ -1,0 +1,410 @@
+[
+  {
+    "elements": [
+      {
+        "id": "crm-page;select-crm-valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Select CRM valid username and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I select a \"\" CRM",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have valid username and password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to save it",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "crm-page;select-crm-valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Select CRM valid username and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I select a \"\" CRM",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have valid username and password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to save it",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "crm-page;select-crm-valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Select CRM valid username and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I select a \"\" CRM",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have valid username and password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to save it",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "crm-page;select-crm-valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Select CRM valid username and password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I select a \"\" CRM",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have valid username and password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to save it",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "crm-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "CRM Page",
+    "tags": [],
+    "uri": "/Users/rsouza/WebstormProjects/tenfold-test/src/features/CRM.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "login-page;valid-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Valid login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on login page",
+            "result": {
+              "status": "failed",
+              "duration": 5006646712,
+              "error_message": "function timed out after 5000 milliseconds"
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/tenfold-test/src/js/test/steps/login_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have valid credentials",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/tenfold-test/src/js/test/steps/login_steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the CRM page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/tenfold-test/src/js/test/steps/login_steps.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login Page",
+    "tags": [],
+    "uri": "/Users/rsouza/WebstormProjects/tenfold-test/src/features/login.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "phone-system-page;valid-ip",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Valid IP",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Phone System Page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I select a Phone System",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have valid IP",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have valid username and password",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to finish",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "phone-system-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Phone System Page",
+    "tags": [],
+    "uri": "/Users/rsouza/WebstormProjects/tenfold-test/src/features/phone_system.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "review-page;valid-inputs",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Valid inputs",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have valid inputs on CRM page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have valid inputs on Phone System page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "all the inputs on the Review Page should be correct",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "review-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Review Page",
+    "tags": [],
+    "uri": "/Users/rsouza/WebstormProjects/tenfold-test/src/features/review.feature"
+  }
+]
