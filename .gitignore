@@ -1,2 +1,7 @@
-./idea
-/bin
+.idea
+.project
+.DS_Store
+dist
+node_modules
+npm-debug.log
+configuration.json
