@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "automation": "concurrently --raw --kill-others \"./node_modules/.bin/webdriver-manager start\" \"sleep 5 && npm run babel -- ./node_modules/.bin/protractor configuration/protractor.config.js\"",
-    "babel": "./node_modules/.bin/babel-node --presets es2015",
+    "automation": "concurrently --raw --kill-others \"./node_modules/.bin/webdriver-manager start\" \"sleep 5 && npm run ./node_modules/.bin/babel-node --presets es2015 -- ./node_modules/.bin/protractor configuration/protractor.config.js\"",
     "webdriver": "./node_modules/.bin/webdriver-manager update && ./node_modules/.bin/webdriver-manager start"
   },
   "devDependencies": {
