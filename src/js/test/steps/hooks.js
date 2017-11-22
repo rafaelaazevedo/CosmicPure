@@ -1,32 +1,17 @@
 import { browser } from 'protractor';
 
 const Hooks = function () {
+  this.Before(() => {
+    // This is just because the site is not angular, otherwise you wouldnt need to set false in here.
+    browser.waitForAngularEnabled(false);
+    return browser.get(browser.baseUrl);
+  });
+
   this.After((scenario) => {
     if (scenario.isFailed()) {
       return browser.takeScreenshot().then(screenshot => scenario.attach(new Buffer(screenshot, 'base64'), 'image/png'));
     }
     return browser.restart();
-  });
-
-  this.registerHandler('AfterFeatures', () => {
-    const reporter = require('cucumber-html-reporter');
-
-    return browser.getProcessedConfig().then((config) => {
-      const jsonFile = config.capabilities.cucumberReportPath;
-
-      browser.getCapabilities().then((capabilities) => {
-        const reportName = `${config.capabilities.browserName}  ${capabilities.get('version')}`;
-        const htmlFile = jsonFile.replace('.json', '.html');
-        const options = {
-          name: `Cucumber report (${reportName})`,
-          theme: 'bootstrap',
-          jsonFile,
-          output: htmlFile,
-          reportSuiteAsScenarios: true,
-        };
-        reporter.generate(options);
-      });
-    });
   });
 };
 

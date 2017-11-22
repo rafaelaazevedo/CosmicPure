@@ -9,23 +9,29 @@ const LoginPage = function () {
 
   return {
     submit() {
-      const element = loginElements.getLoginButton();
+      const element = loginElements.getSubmit();
       return element.click();
     },
         // Create functions just to get the user and the password so we can reuse during the invalid
         // credentials test
     inputUsername(user) {
       const element = loginElements.getUsernameInput();
+      element.click();
       element.clear();
       return element.sendKeys(user);
     },
     inputPassword(password) {
       const element = loginElements.getPasswordInput();
+      element.click();
       element.clear();
       return element.sendKeys(password);
     },
     getPage() {
-      return browser.get(baseUrl);
+      const element = loginElements.getLogin();
+      return element.click();
+    },
+    assertTitle(title) {
+      return expect(browser.driver.getTitle()).to.eventually.equal(title);
     },
   };
 };

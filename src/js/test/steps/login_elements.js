@@ -4,13 +4,19 @@ import { browser, by, findElement } from 'protractor';
 function LoginElements() {
   return {
     getUsernameInput() {
-      return browser.driver.findElement(by.id('username'));
+      return browser.driver.findElement(by.id('usernameOrEmail'));
     },
     getPasswordInput() {
       return browser.driver.findElement(by.id('password'));
     },
-    getLoginButton() {
-      return browser.driver.findElement(by.id('login-button'));
+    getLoginGroup() {
+      return browser.driver.findElement(by.css('.login__form-action'));
+    },
+    getSubmit() {
+      return this.getLoginGroup().findElement(by.css('.button'));
+    },
+    getLogin() {
+      return browser.driver.findElement(by.id('navbar-login-link'));
     },
   };
 }

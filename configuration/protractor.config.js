@@ -4,7 +4,7 @@ const REPORTS_FOLDER = 'target/test-reports/';
 
 const chrome = {
   browserName: 'chrome',
-  reportPath: `${REPORTS_FOLDER}.json`,
+  reportPath: `${REPORTS_FOLDER}report.json`,
   chromeOptions: {
     args: ['no-sandbox'],
     prefs: {
@@ -28,7 +28,7 @@ const configuration = {
   resultJsonOutputFile: `${REPORTS_FOLDER}/protractor.json`,
   cucumberOpts: {
     require: [
-      '../src/js/test/steps/common.js',
+      '../src/js/test/common.js',
       '../src/js/test/steps/*.js',
     ],
     format: 'pretty',

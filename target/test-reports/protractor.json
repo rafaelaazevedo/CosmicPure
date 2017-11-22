@@ -1,147 +1,23 @@
 [
   {
-    "description": "Select CRM valid username and password",
+    "description": "Invalid login",
     "assertions": [
       {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
+        "passed": true
       },
       {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
+        "passed": true
       },
       {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
+        "passed": true
       },
       {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
+        "passed": true
+      },
+      {
+        "passed": true
       }
     ],
-    "duration": null
-  },
-  {
-    "description": "Select CRM valid username and password",
-    "assertions": [
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      }
-    ],
-    "duration": null
-  },
-  {
-    "description": "Select CRM valid username and password",
-    "assertions": [
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      }
-    ],
-    "duration": null
-  },
-  {
-    "description": "Select CRM valid username and password",
-    "assertions": [
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      }
-    ],
-    "duration": null
-  },
-  {
-    "description": "Valid login",
-    "assertions": [
-      {
-        "passed": false
-      }
-    ],
-    "duration": null
-  },
-  {
-    "description": "Valid IP",
-    "assertions": [
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      }
-    ],
-    "duration": null
-  },
-  {
-    "description": "Valid inputs",
-    "assertions": [
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      },
-      {
-        "passed": false,
-        "errorMsg": "Undefined steps are not allowed in strict mode"
-      }
-    ],
-    "duration": null
+    "duration": 8389926657
   }
 ]

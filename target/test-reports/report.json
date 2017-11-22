@@ -1,0 +1,90 @@
+[
+  {
+    "elements": [
+      {
+        "id": "login-page;invalid-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 4612809785
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/cucumber-protractor/src/js/test/steps/hooks.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on login page",
+            "result": {
+              "status": "passed",
+              "duration": 2277289043
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/cucumber-protractor/src/js/test/steps/login_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 544300235
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/cucumber-protractor/src/js/test/steps/login_steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the login page with title \"Log In — WordPress.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 15595736
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/cucumber-protractor/src/js/test/steps/login_steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 939931858
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rsouza/WebstormProjects/cucumber-protractor/src/js/test/steps/hooks.js:12"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login Page",
+    "tags": [],
+    "uri": "/Users/rsouza/WebstormProjects/cucumber-protractor/src/features/login.feature"
+  }
+]

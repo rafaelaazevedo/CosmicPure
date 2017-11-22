@@ -1,5 +1,3 @@
-'use strict';
-
 // Configure chai & sinon
 global.expect = require('chai')
     .use(require('sinon-chai'))
